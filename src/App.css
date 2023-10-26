@@ -1,6 +1,15 @@
 .App {
   text-align: center;
 }
+#map{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  z-index: 10000;
+}
 
 .App-logo {
   height: 40vmin;
